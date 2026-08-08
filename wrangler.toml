@@ -1,6 +1,8 @@
 name = "youtube-downloader-cf"
 compatibility_date = "2026-08-07"
-pages_build_output_dir = ".next"
+
+[assets]
+directory = ".next"
 
 [env.production]
 vars = { YOUTUBE_API_KEY = "" }
